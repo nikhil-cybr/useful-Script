@@ -9,5 +9,5 @@
 7.) To change the amount of RAM assigned to a VM               -----> vboxmanage modifyvm <name or UUID> --memory <RAM in MB>
 8.) To change the number of virtual CPUs assigned to a VM      -----> vboxmanage modifyvm <name or UUID> --cpus <number>
 
-(For running machine) 
-9.) To restore the connection                                  -----> vboxmanage controlvm <name or UUID> setlinkstate1 on|off
+9.) (For running machine) 
+To restore the connection                                  -----> vboxmanage controlvm <name or UUID> setlinkstate1 on|off
